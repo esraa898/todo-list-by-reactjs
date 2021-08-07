@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: cornsilk;
+}
+h1{
+    color: crimson;
+}
+.todo-main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+table {
+    width: 50%;
+    margin-inline-start: 30%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  tbody {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 0.5rem;
+  }
+  td,
+  th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .action{
+      width:10%
+  }
+  th{
+      color: cadetblue;
+  }
+  .delete {
+      outline: none;
+      border:none;
+     color: rgb(138, 190, 138);
+     background-color: transparent;
+
+
+  }
+  
